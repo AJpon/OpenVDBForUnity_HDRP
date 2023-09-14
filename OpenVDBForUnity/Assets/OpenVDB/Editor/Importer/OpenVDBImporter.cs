@@ -4,7 +4,7 @@ using System;
 using UnityEngine;
 using System.IO;
 using System.Linq;
-using UnityEditor.Experimental.AssetImporters;
+
 using System.Text.RegularExpressions;
 using Extensions;
 using UnityEditor;
@@ -13,8 +13,8 @@ using Object = UnityEngine.Object;
 namespace OpenVDB
 {
     [Serializable]
-    [ScriptedImporter(1, "vdb")]
-    public class OpenVDBImporter : ScriptedImporter
+    [UnityEditor.AssetImporters.ScriptedImporter(1, "vdb")]
+    public class OpenVDBImporter : UnityEditor.AssetImporters.ScriptedImporter
     {
         [SerializeField] public OpenVDBStreamSettings streamSettings = new OpenVDBStreamSettings();
 
@@ -35,7 +35,7 @@ namespace OpenVDB
             }
         }
 
-        public override void OnImportAsset(AssetImportContext ctx)
+        public override void OnImportAsset(UnityEditor.AssetImporters.AssetImportContext ctx)
         {
             var shortAssetPath = MakeShortAssetPath(ctx.assetPath);
             var sourcePath = SourcePath(shortAssetPath);
@@ -76,10 +76,10 @@ namespace OpenVDB
 
         class Subassets
         {
-            AssetImportContext m_ctx;
+            UnityEditor.AssetImporters.AssetImportContext m_ctx;
             Material m_defaultMaterial;
 
-            public Subassets(AssetImportContext ctx)
+            public Subassets(UnityEditor.AssetImporters.AssetImportContext ctx)
             {
                 m_ctx = ctx;
             }

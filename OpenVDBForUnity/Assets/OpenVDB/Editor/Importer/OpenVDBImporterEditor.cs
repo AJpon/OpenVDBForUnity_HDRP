@@ -4,12 +4,12 @@ using System;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
-using UnityEditor.Experimental.AssetImporters;
+
 
 namespace OpenVDB
 {
     [CustomEditor(typeof(OpenVDBImporter)), CanEditMultipleObjects]
-    public class OpenVDBImporterEditor : ScriptedImporterEditor
+    public class OpenVDBImporterEditor : UnityEditor.AssetImporters.ScriptedImporterEditor
     {
         private int _toolbar = 0;
 

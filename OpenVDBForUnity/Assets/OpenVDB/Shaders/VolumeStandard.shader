@@ -16,10 +16,10 @@ Shader "OpenVDB/Standard"
     CGINCLUDE
 
     #define ENABLE_CAMERA_INSIDE_CUBE
-    #define ENABLE_SAMPLING_START_OFFSET
+    //#define ENABLE_SAMPLING_START_OFFSET
     #define ENABLE_TRACE_DISTANCE_LIMITED
-    #define ENABLE_DIRECTIONAL_LIGHT
-    #define ENABLE_AMBIENT_LIGHT
+    //#define ENABLE_DIRECTIONAL_LIGHT
+    //#define ENABLE_AMBIENT_LIGHT
 
     ENDCG
 
@@ -31,7 +31,7 @@ Shader "OpenVDB/Standard"
         }
         Cull [_Cull]
         Blend SrcAlpha OneMinusSrcAlpha
-
+        ZWrite On
 
         Pass
         {

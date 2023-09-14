@@ -4,6 +4,12 @@
 #include "UnityCG.cginc"
 #include "Camera.cginc"
 #include "Utils.cginc"
+//#define REQUIRE_DEPTH_TEXTURE
+//#include "Packages/com.unity.render-pipelines.high-definition/Runtime/ShaderLibrary/ShaderGraphFunctions.hlsl"
+//#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl"
+//#undef UNITY_SHADER_VARIABLES_INCLUDED
+//#include "Packages/com.unity.render-pipelines.high-definition/Runtime/ShaderLibrary/ShaderVariables.hlsl"
+//#include "Packages/com.unity.render-pipelines.high-definition/Runtime/ShaderLibrary/TextureXR.hlsl"
 
 #ifndef ITERATIONS
 #define ITERATIONS 100
@@ -25,6 +31,17 @@ float _StepDistance;
 half3 _AmbientColor;
 float _AmbientDensity;
 #endif
+
+float Linear01Depth(float depth, float4 zBufferParam)
+{
+    return 1.0 / (zBufferParam.x * depth + zBufferParam.y);
+}
+
+float SceneDepth_Linear01(float4 UV)
+{
+    //return Linear01Depth(LoadCameraDepth(UV.xy), _ZBufferParams);
+    return 0.0f;
+}
 
 float SampleVolume(float3 uv)
 {
@@ -59,6 +76,8 @@ v2f vert(appdata v)
     o.world = mul(unity_ObjectToWorld, v.vertex).xyz;
     return o;
 }
+
+#define _DEPTHOFFSET_ON
 
 fragOutput frag(v2f i)
 {
@@ -207,12 +226,19 @@ fragOutput frag(v2f i)
     }
     if(depthtest)
     {
-        clip(-1);
+        //clip(-1);
     }
 
     fragOutput o;
     o.color = float4(lightenergy, 1-transmittance);
-    o.depth = ComputeDepth(UnityObjectToClipPos(float4(depth, 1.0)));
+    //o.color = float4(1.0, 0.0, 0.0, 1.0);
+    //o.color = SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, uv);
+    //o.color = float4(sceneDepth, sceneDepth, sceneDepth, 1.0);
+    //o.color = float4(SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, uv).xxx, 1.0);
+    //o.color = float4(ray.origin, 1.0);
+    o.color = float4(Localize(sceneDepth * cameraDir + cameraPos), 1.0);
+    //o.depth = ComputeDepth(UnityObjectToClipPos(float4(depth, 1.0)));
+    //o.depth = float4(depth, 1.0);
     return o;
 }
 

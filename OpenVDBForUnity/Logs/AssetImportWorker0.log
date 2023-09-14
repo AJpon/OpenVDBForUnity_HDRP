@@ -1,0 +1,1099 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.6f1 (b9e6e7e9fa2d) revision 12183271'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ja' Physical Memory: 65243 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\DevTools\Unity\2022.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+J:/workspace/OpenVDBForUnity_HDRP/OpenVDBForUnity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60852
+Successfully changed project path to: J:/workspace/OpenVDBForUnity_HDRP/OpenVDBForUnity
+J:/workspace/OpenVDBForUnity_HDRP/OpenVDBForUnity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [45072] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3018314889 [EditorId] 3018314889 [Version] 1048832 [Id] WindowsEditor(7,kuyuri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [45072] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3018314889 [EditorId] 3018314889 [Version] 1048832 [Id] WindowsEditor(7,kuyuri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 4.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
+[Subsystems] Discovering subsystems at path D:/DevTools/Unity/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path J:/workspace/OpenVDBForUnity_HDRP/OpenVDBForUnity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4090 (ID=0x2684)
+    Vendor:   NVIDIA
+    VRAM:     24156 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'D:/DevTools/Unity/2022.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'D:/DevTools/Unity/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/DevTools/Unity/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/DevTools/Unity/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003875 seconds.
+- Loaded All Assemblies, in  0.292 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.247 seconds
+Domain Reload Profiling: 539ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (88ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (247ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.648 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.793 seconds
+Domain Reload Profiling: 1440ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (793ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (612ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (260ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4692 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 109 unused Assets / (4.8 MB). Loaded Objects now: 5171.
+Memory consumption went from 271.4 MB to 266.6 MB.
+Total: 5.278700 ms (FindLiveObjects: 0.498000 ms CreateObjectMapping: 0.124500 ms MarkObjects: 3.544800 ms  DeleteObjects: 1.110300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2248.715020 seconds.
+  path: Packages/jp.kazuki.openvdb-samplemodels/OpenVDBSampleModels/wdas_cloud_quarter.vdb
+  artifactKey: Guid(111989529e96c4b83adbc5b2813e8d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/jp.kazuki.openvdb-samplemodels/OpenVDBSampleModels/wdas_cloud_quarter.vdb using Guid(111989529e96c4b83adbc5b2813e8d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eed808d8c577b0ee60b371aedee5cac') in 0.354783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 124.077828 seconds.
+  path: Assets/PostProcessing/Resources
+  artifactKey: Guid(759d5240488224777b7aff4100399796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources using Guid(759d5240488224777b7aff4100399796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760c80639407fef875cddb8c123e9cb7') in 0.000454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.481232 seconds.
+  path: Assets/PostProcessing/Runtime
+  artifactKey: Guid(9cf7cdf8ad8d94c3793ac2b5e38b4605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Runtime using Guid(9cf7cdf8ad8d94c3793ac2b5e38b4605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d08a5f0b787d1f5b13de6df836a5bd') in 0.000400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.578 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.853 seconds
+Domain Reload Profiling: 1430ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (201ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (853ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (328ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4334 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (4.8 MB). Loaded Objects now: 5182.
+Memory consumption went from 224.4 MB to 219.6 MB.
+Total: 4.885200 ms (FindLiveObjects: 0.365600 ms CreateObjectMapping: 0.142100 ms MarkObjects: 3.306000 ms  DeleteObjects: 1.070300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.562 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.832 seconds
+Domain Reload Profiling: 1393ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (225ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (201ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (832ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (308ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 129 unused Assets / (3.6 MB). Loaded Objects now: 5125.
+Memory consumption went from 218.2 MB to 214.7 MB.
+Total: 4.491800 ms (FindLiveObjects: 0.348900 ms CreateObjectMapping: 0.155400 ms MarkObjects: 3.252800 ms  DeleteObjects: 0.733700 ms)
+
+Prepare: number of updated asset objects reloaded= 27
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3522.679987 seconds.
+  path: Packages/jp.kazuki.openvdb-samplemodels/OpenVDBSampleModels
+  artifactKey: Guid(dbd4b7d354d7e40d2bfebbabb9998333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/jp.kazuki.openvdb-samplemodels/OpenVDBSampleModels using Guid(dbd4b7d354d7e40d2bfebbabb9998333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f819e1ca27cc84c2e266e4b71364ab6') in 0.032423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.729542 seconds.
+  path: Assets/OpenVDB/Shaders/VolumeStandard.shader
+  artifactKey: Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenVDB/Shaders/VolumeStandard.shader using Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca77bd9310eb3475feeb9dec335b49d') in 0.002150 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 69.466858 seconds.
+  path: Assets/OpenVDB/Shaders/VolumeStandard.shader
+  artifactKey: Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenVDB/Shaders/VolumeStandard.shader using Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edc9e7b47a7e35c721fc2d1e33af682') in 0.000668 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.113518 seconds.
+  path: Assets/OpenVDB/Shaders/VolumeStandard.shader
+  artifactKey: Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenVDB/Shaders/VolumeStandard.shader using Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad787945274fe88f51d30529ccf5cfc') in 0.000630 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 196.524199 seconds.
+  path: Assets/OpenVDB
+  artifactKey: Guid(72b2afb3e96e64850877daee38dbec8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenVDB using Guid(72b2afb3e96e64850877daee38dbec8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c341bd27247493bbb836f6272f473ae7') in 0.000453 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.905583 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.689086 seconds.
+  path: Assets/Shaders
+  artifactKey: Guid(6f1ac0c0491c6814ba6158e7fb45d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders using Guid(6f1ac0c0491c6814ba6158e7fb45d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a65318ad1ef1d7c2c02ef2c950e5aec') in 0.000441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 99.684387 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ade17ba81bebd4924446cd1fdc2207') in 0.002446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 230.146498 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9561087d719682d4ee32e21c7b560fe1') in 0.001958 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1387.457596 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30a317d3039c219a27d167753683cec') in 0.002257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 703.933761 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05edd1fa3026da2491eb0100b7aa6c95') in 0.002131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 371.826933 seconds.
+  path: Assets/OpenVDB/Shaders
+  artifactKey: Guid(d18badba13429405f9fdea783c65fc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenVDB/Shaders using Guid(d18badba13429405f9fdea783c65fc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1a261c479392048ba7aa5ea4874035') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.484673 seconds.
+  path: Assets/OpenVDB.Tests
+  artifactKey: Guid(6d51cb67879144579ab7cf28f9064f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenVDB.Tests using Guid(6d51cb67879144579ab7cf28f9064f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b987430a2ef9d8a4da6975ac2e8da895') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.147980 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57846061f3f1a471d8aae09734ce9dc4') in 0.002197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.539013 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96acd77bc42c1c203c62e5c053a45e36') in 0.002153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 88.802473 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39446be899eabf9134692046178b2db5') in 0.002000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.776559 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f8f3b82558ece2db446a53f2940b32') in 0.002001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.992316 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a05150af9109c232ebe49f8a21a971') in 0.001927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.272281 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782028322e46fcda3db37ef39340040d') in 0.002073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.423874 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb0af87a7a2ddbc91aed1d24e97c3a0') in 0.001933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.664403 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6319280b937ca2177112cc93a31ac33') in 0.001917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 41.339127 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9150907eba670c676d0c44c149fa0d6e') in 0.001938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2563.174441 seconds.
+  path: Assets/OpenVDB/Shaders/VolumeStandard.shader
+  artifactKey: Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenVDB/Shaders/VolumeStandard.shader using Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bfc3199c6c16e38a611e914be30e34') in 0.000889 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1864.268712 seconds.
+  path: Assets/OpenVDB/Shaders/VolumeStandard.shader
+  artifactKey: Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenVDB/Shaders/VolumeStandard.shader using Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b592d200d1cade6c2b3ccd4e4c1cb1e') in 0.000700 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 169.123535 seconds.
+  path: Assets/OpenVDB/Shaders/VolumeStandard.shader
+  artifactKey: Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenVDB/Shaders/VolumeStandard.shader using Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde7c1f0db86417c0c06af19242165bb') in 0.000674 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.648002 seconds.
+  path: Assets/OpenVDB/Shaders/VolumeStandard.shader
+  artifactKey: Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenVDB/Shaders/VolumeStandard.shader using Guid(8451709f45c2243508e6742ef81b7a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f778334b0ea13fb07e99f3ed0970c6') in 0.000616 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2407.163686 seconds.
+  path: Assets/HDRPDefaultResources
+  artifactKey: Guid(9e41288da6fd2cb4ca90f706311a1fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources using Guid(9e41288da6fd2cb4ca90f706311a1fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b122eccc2d627c80cc9ddede1272c8f5') in 0.000541 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.766975 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(79f47ec4e4bec4943a10fa54e9468204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(79f47ec4e4bec4943a10fa54e9468204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38590c1d7b8fac994c72b0f1c10aaea') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.138456 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(77d11422e04f4403a928c9e5074f37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(77d11422e04f4403a928c9e5074f37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e42793eb622760f56539fa28d22005') in 0.000424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.311411 seconds.
+  path: Assets/Shaders/New Shader Graph.shadergraph
+  artifactKey: Guid(9fd5f208aa44fd94581e8eb350f1535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/New Shader Graph.shadergraph using Guid(9fd5f208aa44fd94581e8eb350f1535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4bab00cd838f17a27c88aab200caff') in 0.002175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.740396 seconds.
+  path: Assets/Shaders/New Shader Graph.shadergraph
+  artifactKey: Guid(9fd5f208aa44fd94581e8eb350f1535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/New Shader Graph.shadergraph using Guid(9fd5f208aa44fd94581e8eb350f1535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7cf82ad5d2363b8b7c4f0c061beab2') in 0.001912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 835.052688 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b26af2aab192594a117ffe702071e22') in 0.002206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1185.047117 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd327c24267082edcdc70878b4a7ee2') in 0.002335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.224282 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415e79bd3178695efac10f09c4f1cf05') in 0.002150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 68.965153 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3cf476f97f568f8865977304d9bdea') in 0.002058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4468.220031 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79953560a54f4d83298603af62f1fead') in 0.002090 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.426492 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca1b28942ffc2b0d5bb6f4f8da73bc2') in 0.002171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.997261 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47447f970fa89c9d6911933d7c4beb99') in 0.001979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.373901 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20422effe805945c8dbe2e84b50a846') in 0.002315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.388739 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99acc533a8982faa8724cd671a905313') in 0.002079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.395545 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c99ee83735ad52a76dc65adcab8b694') in 0.002051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.835233 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a5eca75fbcf8dbcc749c252173d9f6') in 0.002580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3858.641233 seconds.
+  path: Assets/Shaders/LocalFog.shadergraph
+  artifactKey: Guid(7ed1c9e1f9c3d8d418b337cfb93bdc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/LocalFog.shadergraph using Guid(7ed1c9e1f9c3d8d418b337cfb93bdc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f778af673d7335959856ba47d0041f1d') in 0.003420 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 47.200007 seconds.
+  path: Assets/Shaders/LocalFog.shadergraph
+  artifactKey: Guid(7ed1c9e1f9c3d8d418b337cfb93bdc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/LocalFog.shadergraph using Guid(7ed1c9e1f9c3d8d418b337cfb93bdc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79b230ee5286c56ef485db5e6bbc028') in 0.001849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 24670.578016 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(f2724841678926741b8b7f3fe8fedc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset using Guid(f2724841678926741b8b7f3fe8fedc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb73dffbce62f79a23e9f5e85aa1ef2') in 0.001505 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.951328 seconds.
+  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(137a937f4553c8c4f8028bd0d7201b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(137a937f4553c8c4f8028bd0d7201b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c06fbad3afc1f6665254e618c225b9') in 0.001836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.749927 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(48cfe42638f381f4e81f7f91478cd8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(48cfe42638f381f4e81f7f91478cd8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ee5c10dcb5aa511aead5c85811a3ad') in 0.000981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.530025 seconds.
+  path: Assets/OpenVDB/Scripts/Misc/PinnedArray.cs
+  artifactKey: Guid(4c8cb7153975b2e49a40a322f27becb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Scripts/Misc/PinnedArray.cs using Guid(4c8cb7153975b2e49a40a322f27becb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6418502b29791b72b3c57695f36475d') in 0.313983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Shaders/LocalFog.shadergraph
+  artifactKey: Guid(7ed1c9e1f9c3d8d418b337cfb93bdc42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/LocalFog.shadergraph using Guid(7ed1c9e1f9c3d8d418b337cfb93bdc42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '987674191413bd6b1e6d634775541999') in 0.399714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OpenVDB/Shaders/VolumeStandard.cginc
+  artifactKey: Guid(0e6114d09c4474a55b94c602f337afc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Shaders/VolumeStandard.cginc using Guid(0e6114d09c4474a55b94c602f337afc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '663b3dd794a0d11776c0a4d77d7d7722') in 0.010171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OpenVDB/Scripts/Plugins/x86_64/openvdbi.dll
+  artifactKey: Guid(3d80b9ff59f8bb640bf565f0058656c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Scripts/Plugins/x86_64/openvdbi.dll using Guid(3d80b9ff59f8bb640bf565f0058656c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '800032d7f4ecf742aa9414bedb8047e0') in 0.015044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/OpenVDB/Scripts/Importer/OpenVDBAPI.cs
+  artifactKey: Guid(764593f1a90ec4ad184056b63a66e9d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Scripts/Importer/OpenVDBAPI.cs using Guid(764593f1a90ec4ad184056b63a66e9d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3d5e694409df50c5290b7b918b79891') in 0.013577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OpenVDB/Shaders/camera.cginc
+  artifactKey: Guid(c27e5a1c613a54377a7ddfc2537e3217) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Shaders/camera.cginc using Guid(c27e5a1c613a54377a7ddfc2537e3217) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b5c6e9abb355e6d294cff39c1c848601') in 0.010743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Shaders/New Shader Graph.shadergraph
+  artifactKey: Guid(9fd5f208aa44fd94581e8eb350f1535b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/New Shader Graph.shadergraph using Guid(9fd5f208aa44fd94581e8eb350f1535b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1105e3d6bbbde8427a20dd71c0c9b711') in 0.052323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/OpenVDB/Scripts/Importer/OpenVDBStreamDescriptor.cs
+  artifactKey: Guid(d7c31bf56001c42b48117cb35de84c67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Scripts/Importer/OpenVDBStreamDescriptor.cs using Guid(d7c31bf56001c42b48117cb35de84c67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89aa5367b24ef4f61460fdd7c07bcd0d') in 0.011605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(f2724841678926741b8b7f3fe8fedc22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset using Guid(f2724841678926741b8b7f3fe8fedc22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8d239953cf3e15798d9a01ac23e1ec2') in 0.033595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StreamingAssets/Packages/jp.kazuki.openvdb-samplemodels/OpenVDBSampleModels/bunny_cloud.vdb
+  artifactKey: Guid(0693f08d5a87d3e4f8ce12bbe446e44f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StreamingAssets/Packages/jp.kazuki.openvdb-samplemodels/OpenVDBSampleModels/bunny_cloud.vdb using Guid(0693f08d5a87d3e4f8ce12bbe446e44f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6812add0a6643f0b7b16cdf2ecdb141') in 0.007133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/TestSettings.lighting
+  artifactKey: Guid(7bd5b4b25363c674cbff1b088193df4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/TestSettings.lighting using Guid(7bd5b4b25363c674cbff1b088193df4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '685f9e77db677952e2468e34c477fa0e') in 0.022797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OpenVDB/Scripts/jp.kazuki.OpenVDB.asmdef
+  artifactKey: Guid(82ee6f0c0455c4e0c95964d7ca3170fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Scripts/jp.kazuki.OpenVDB.asmdef using Guid(82ee6f0c0455c4e0c95964d7ca3170fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08a1457224d93f10a4c9e926b2bfeaf5') in 0.011108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OpenVDB.Tests/OpenVDBAPITest.cs
+  artifactKey: Guid(990c551ca5f1444f19cfbda0c6d4e302) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB.Tests/OpenVDBAPITest.cs using Guid(990c551ca5f1444f19cfbda0c6d4e302) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66cd14d58b88ea7b654edaa70258f693') in 0.015153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Editor/PackageBuild/jp.kazuki.OpenVDB.PackageBuild.asmdef
+  artifactKey: Guid(c0452cf3cd18a421291092a4d5f36aeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/PackageBuild/jp.kazuki.OpenVDB.PackageBuild.asmdef using Guid(c0452cf3cd18a421291092a4d5f36aeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd948a39dd75bada7f4539019f44bc0d0') in 0.011046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/OpenVDB/Editor/Importer/Extractor.cs
+  artifactKey: Guid(01bc90610b1ee44db86348bb57f679c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Editor/Importer/Extractor.cs using Guid(01bc90610b1ee44db86348bb57f679c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13a90752f9897ea889d7e101152cf048') in 0.010771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(48cfe42638f381f4e81f7f91478cd8f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(48cfe42638f381f4e81f7f91478cd8f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a05c3f8bb0d3937adb840936ab213e8f') in 0.008958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/OpenVDB/Scripts/Extensions/GameObjectExtensions.cs
+  artifactKey: Guid(c8ed24b9141a346af9a8aab8f9d8337d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Scripts/Extensions/GameObjectExtensions.cs using Guid(c8ed24b9141a346af9a8aab8f9d8337d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b0cc64a1671eae0ce81c8ebd3fcb652') in 0.011831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OpenVDB/Scripts/Importer/OpenVDBVolume.cs
+  artifactKey: Guid(53391ea5419b942cda8f05d1bcdc4999) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Scripts/Importer/OpenVDBVolume.cs using Guid(53391ea5419b942cda8f05d1bcdc4999) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8272e814989e93ce195bb9c05acf4023') in 0.011663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/OpenVDB/Scripts/Misc/ReadOnlyAttribute.cs
+  artifactKey: Guid(9b2e4f06843ca2747904f018f5abf313) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Scripts/Misc/ReadOnlyAttribute.cs using Guid(9b2e4f06843ca2747904f018f5abf313) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1a486f138ecdc8bed7d6af76f55d144d') in 0.012754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/OpenVDB/Editor/Importer/OpenVDBImporter.cs
+  artifactKey: Guid(8dbf4f10acd0347ee84d79cd77d0df3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Editor/Importer/OpenVDBImporter.cs using Guid(8dbf4f10acd0347ee84d79cd77d0df3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2085a3936441aae0bed33b32f74d0f70') in 0.013976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/OpenVDB.Tests/OpenVDBImporterTest.cs
+  artifactKey: Guid(a04560f6ea2424c8380bff7405844697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB.Tests/OpenVDBImporterTest.cs using Guid(a04560f6ea2424c8380bff7405844697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81648fff90eb8a086aa6190db1a47fed') in 0.013153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Editor/PackageBuild/LibraryDownloader.cs
+  artifactKey: Guid(1459540db144544399c460f1e93f0ab3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/PackageBuild/LibraryDownloader.cs using Guid(1459540db144544399c460f1e93f0ab3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73b29c4c0460592addb1805086da831f') in 0.012772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OpenVDB/Scripts/Misc/VoxelMesh.cs
+  artifactKey: Guid(54dc0b210835742d082e1b195c4275e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Scripts/Misc/VoxelMesh.cs using Guid(54dc0b210835742d082e1b195c4275e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8b0ca0ff56f21aa944150e8fbea090c') in 0.010918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Editor/PackageBuild/PackageMenu.cs
+  artifactKey: Guid(9a72513f3b91143afa7ae87bf1bdcb17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/PackageBuild/PackageMenu.cs using Guid(9a72513f3b91143afa7ae87bf1bdcb17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '476f0e9ec1364a6f4088affe43d11962') in 0.010431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/OpenVDB.Tests/Const.cs
+  artifactKey: Guid(92e8f06eef17b46aaae4994c625f14b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB.Tests/Const.cs using Guid(92e8f06eef17b46aaae4994c625f14b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22306dfae7957b52d5fb9695d79e669d') in 0.011233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OpenVDB.Tests/PackageBuildTest.cs
+  artifactKey: Guid(484b13b8a45164794a79fdc68e24bdd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB.Tests/PackageBuildTest.cs using Guid(484b13b8a45164794a79fdc68e24bdd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '551f4fe4243a5b6ba23421d0381b8388') in 0.010495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Common/HDRenderPipelineAsset.asset
+  artifactKey: Guid(3927e36d6d8a64b4ebb7c2d46f265d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/HDRenderPipelineAsset.asset using Guid(3927e36d6d8a64b4ebb7c2d46f265d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71120aa281dba1dc57e4b11488dd4eec') in 0.051021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(137a937f4553c8c4f8028bd0d7201b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(137a937f4553c8c4f8028bd0d7201b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e540132167bf22fc9f8386c110258b7') in 0.007824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/OpenVDB/Shaders/VDBVolumeRaymarching.hlsl
+  artifactKey: Guid(b0d25574d88f46c98e616478c18ff491) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Shaders/VDBVolumeRaymarching.hlsl using Guid(b0d25574d88f46c98e616478c18ff491) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b73047cd84ca152112ddae0d04aadc7d') in 0.010181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/EmptyScene.unity
+  artifactKey: Guid(9a4a27ea3a27f486fbebcc9537bd30c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/EmptyScene.unity using Guid(9a4a27ea3a27f486fbebcc9537bd30c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19417a6b303250fe6bc243f7db4320f4') in 0.006390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/OpenVDB/Scripts/Misc/Bool.cs
+  artifactKey: Guid(fe64700775bee6d43aa65acd242db06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Scripts/Misc/Bool.cs using Guid(fe64700775bee6d43aa65acd242db06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7910c39511e627ff2b944a196205852b') in 0.010431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/OpenVDB/Shaders/VolumeStandard.shader
+  artifactKey: Guid(8451709f45c2243508e6742ef81b7a16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Shaders/VolumeStandard.shader using Guid(8451709f45c2243508e6742ef81b7a16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2c4fa3fa57b7e07509b0ca5498b41d1') in 0.009454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Test.unity
+  artifactKey: Guid(0d20b9a0fbdfc4bf5ab843e49376062e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Test.unity using Guid(0d20b9a0fbdfc4bf5ab843e49376062e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30b48e67f85ced0f8f89f83a51dde82d') in 0.006994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Editor/PackageBuild/UnityCloudBuildTrigger.cs
+  artifactKey: Guid(3d6ac79b6b5d540dab45ee4725c4ff31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/PackageBuild/UnityCloudBuildTrigger.cs using Guid(3d6ac79b6b5d540dab45ee4725c4ff31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3631cb720ec8181a348f1fd6a4b9fd24') in 0.014113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OpenVDB.Tests/jp.kazuki.OpenVDB.Tests.asmdef
+  artifactKey: Guid(c09636e7ad23643d68bbda81eb7e9e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB.Tests/jp.kazuki.OpenVDB.Tests.asmdef using Guid(c09636e7ad23643d68bbda81eb7e9e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0c37f60766f6a1ceb76e8b0193ae65c') in 0.012270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OpenVDB/Editor/Importer/jp.kazuki.OpenVDB.Editor.asmdef
+  artifactKey: Guid(38ff46b95bcaf40679165a5b52d839a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Editor/Importer/jp.kazuki.OpenVDB.Editor.asmdef using Guid(38ff46b95bcaf40679165a5b52d839a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12d32738facb6dbc5b7e47f6b2552e39') in 0.013702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OpenVDB/Editor/Importer/OpenVDBImporterEditor.cs
+  artifactKey: Guid(4845459949bdf4ee3b65b0bcba8f446f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Editor/Importer/OpenVDBImporterEditor.cs using Guid(4845459949bdf4ee3b65b0bcba8f446f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4e030e437ddc05568e1dddb196bbf98') in 0.013186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StreamingAssets/Packages/jp.kazuki.openvdb-samplemodels/OpenVDBSampleModels/fire.vdb
+  artifactKey: Guid(34725207f73664447bae6db5260de3d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StreamingAssets/Packages/jp.kazuki.openvdb-samplemodels/OpenVDBSampleModels/fire.vdb using Guid(34725207f73664447bae6db5260de3d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bac673b5e204328368296a26d067b7c6') in 0.006713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/OpenVDB/Shaders/VolumeShadowCaster.cginc
+  artifactKey: Guid(841bb77b035b3416581475cba8182967) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Shaders/VolumeShadowCaster.cginc using Guid(841bb77b035b3416581475cba8182967) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7087a80ce2efc8216799d2a5d1c59bbc') in 0.010988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OpenVDB/Scripts/Importer/OpenVDBStream.cs
+  artifactKey: Guid(96310cdb9970d496eb71cc21e67342e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Scripts/Importer/OpenVDBStream.cs using Guid(96310cdb9970d496eb71cc21e67342e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ba8ea8553a17fec58c3f51590e2f2f1') in 0.010804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005783 seconds.
+  path: Assets/StreamingAssets/Packages/jp.kazuki.openvdb-samplemodels/OpenVDBSampleModels/wdas_cloud_quarter.vdb
+  artifactKey: Guid(c7c30d6ea551c0341ba049b201182dfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StreamingAssets/Packages/jp.kazuki.openvdb-samplemodels/OpenVDBSampleModels/wdas_cloud_quarter.vdb using Guid(c7c30d6ea551c0341ba049b201182dfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b0fea19054e86c47d680f965932b9a6') in 0.008512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/OpenVDB/Shaders/Utils.cginc
+  artifactKey: Guid(b54b237173e7a43beb61dc73cbb24f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Shaders/Utils.cginc using Guid(b54b237173e7a43beb61dc73cbb24f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '58868a0925a0033a0e9c86697e0ec136') in 0.010257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Shaders/VDBVolume.shadergraph
+  artifactKey: Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/VDBVolume.shadergraph using Guid(282c7be5c3cdcf3448dd25840dde57ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '945627b11860555d093e8858667fd6dc') in 0.350296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Editor/PackageBuild/PackageBuilder.cs
+  artifactKey: Guid(a08fdbd5980d9443abbeeeaf98393408) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/PackageBuild/PackageBuilder.cs using Guid(a08fdbd5980d9443abbeeeaf98393408) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5e14b53e00a377aae4be136888da6c9') in 0.012494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/OpenVDB/Scripts/Importer/OpenVDBStreamSettings.cs
+  artifactKey: Guid(5aa45c817226c4ea886ff2a5d0b166ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OpenVDB/Scripts/Importer/OpenVDBStreamSettings.cs using Guid(5aa45c817226c4ea886ff2a5d0b166ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47de8f8a871b2e3ca86a2160425d04f9') in 0.011008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/PostFx.asset
+  artifactKey: Guid(69e6d4dc8634143ad861c3a46ae16f2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/PostFx.asset using Guid(69e6d4dc8634143ad861c3a46ae16f2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dcec70eb66725624578c8ca05d0e31a8') in 0.012653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Shaders/New Material.mat
+  artifactKey: Guid(43daa2b74cc24144b8bf058c4e814b9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/New Material.mat using Guid(43daa2b74cc24144b8bf058c4e814b9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d92a0474f7c342b628c46935769995d') in 0.388028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Common/Volume.asset
+  artifactKey: Guid(7c27d3cb36f53445fbef0b49b7e8d31c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Volume.asset using Guid(7c27d3cb36f53445fbef0b49b7e8d31c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '84e2b2020bae3b9c234177f8b29be5ce') in 0.015156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.497342 seconds.
+  path: Assets/Common/HDRenderPipelineAsset.asset
+  artifactKey: Guid(3927e36d6d8a64b4ebb7c2d46f265d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Common/HDRenderPipelineAsset.asset using Guid(3927e36d6d8a64b4ebb7c2d46f265d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385856bf138757a10fefa61f0f2c912f') in 0.000598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
