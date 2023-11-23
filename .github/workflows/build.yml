@@ -1,7 +1,6 @@
 name: Build
 
-on:
-  [push, workflow_dispatch]
+on: [push, workflow_dispatch]
 
 permissions:
   id-token: write
@@ -49,8 +48,8 @@ jobs:
         with:
           # This one is not needed, as it is the default value anyway.
           # vcpkgDirectory: '${{ github.workspace }}/vcpkg'
-          vcpkgJsonGlob: '${{ env.src_dir }}/vcpkg.json'
-          vcpkgGitCommitId: '5b1214315250939257ef5d62ecdcbca18cf4fb1c'
+          vcpkgJsonGlob: "${{ env.src_dir }}/vcpkg.json"
+          vcpkgGitCommitId: "5b1214315250939257ef5d62ecdcbca18cf4fb1c"
 
       - name: List $RUNNER_WORKSPACE before build
         run: find $RUNNER_WORKSPACE
@@ -66,9 +65,8 @@ jobs:
           cmake -D CMAKE_TOOLCHAIN_FILE=${{ env.CMAKE_TOOLCHAIN_FILE }} -D VCPKG_TARGET_TRIPLET=${{ env.VCPKG_TARGET_TRIPLET }} -D CMAKE_INSTALL_PREFIX=${{ env.build_dist_dir }} -S ${{ env.src_dir }} -B ${{ env.work_dir }}
           cmake --build ${{ env.work_dir }} --parallel ${{ env.BUILD_THREADS }} --config ${{ env.BUILD_TYPE }} --target install
         env:
-          VCPKG_DEFAULT_TRIPLET: ${{ matrix.triplet }}
           CMAKE_TOOLCHAIN_FILE: ${{ steps.runvcpkg.outputs.RUNVCPKG_VCPKG_ROOT_OUT }}/scripts/buildsystems/vcpkg.cmake
-          VCPKG_TARGET_TRIPLET: ${{ steps.runvcpkg.outputs.RUNVCPKG_VCPKG_DEFAULT_TRIPLET_OUT }}
+          VCPKG_TARGET_TRIPLET: ${{ steps.runvcpkg.outputs.RUNVCPKG_VCPKG_DEFAULT_TRIPLET_OUT || env.VCPKG_DEFAULT_TRIPLET }}
 
       - name: List $RUNNER_WORKSPACE after build
         run: find $RUNNER_WORKSPACE
