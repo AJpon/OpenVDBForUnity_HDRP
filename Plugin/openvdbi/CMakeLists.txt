@@ -5,8 +5,11 @@ IF(BUILD_SHARED_LIBS)
     add_plugin(openvdbi SOURCES ${sources})
 ELSE()
     add_library(openvdbi STATIC ${sources})
-    install ( TARGETS openvdbi DESTINATION lib)
 ENDIF()
 
+install(TARGETS openvdbi DESTINATION lib)
+
 target_include_directories(openvdbi PUBLIC .)
-conan_target_link_libraries(openvdbi)
+
+find_package(OpenVDB CONFIG REQUIRED)
+target_link_libraries(openvdbi PRIVATE OpenVDB::openvdb)

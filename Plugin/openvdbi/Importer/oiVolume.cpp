@@ -88,7 +88,7 @@ bool sampleVolume( const openvdb::Coord& extents, SamplingFunc sampling_func, Fl
     typedef tbb::enumerable_thread_specific<FloatRange> PerThreadRange;
     PerThreadRange ranges;
     const openvdb::Vec3i stride = {1, extents.x(), extents.x() * extents.y()};
-    tbb::atomic<bool> cancelled;
+    std::atomic<bool> cancelled;
     cancelled = false;
     tbb::parallel_for(
             domain,
