@@ -1,0 +1,86 @@
+name: Build
+
+on:
+  [push, workflow_dispatch]
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  BUILD_TYPE: Release
+  BUILD_THREADS: 4
+  src_dir: ${{ github.workspace }}/Plugin
+  work_dir: ${{ github.workspace }}/Plugin/build
+  build_dist_dir: ${{ github.workspace }}/Plugin/build/dist/
+
+jobs:
+  job:
+    name: ${{ matrix.os }}-${{ github.workflow }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        include:
+          - os: windows-latest
+            triplet: x64-windows
+          - os: ubuntu-latest
+            triplet: x64-linux
+          - os: macos-latest
+            triplet: x64-osx
+          # - os: macos-latest
+          #   triplet: arm64-osx
+
+    env:
+      VCPKG_DEFAULT_TRIPLET: ${{ matrix.triplet }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            Plugin
+
+      - uses: lukka/get-cmake@latest
+
+      - name: Setup anew (or from cache) vcpkg (and does not build any package)
+        uses: lukka/run-vcpkg@main
+        id: runvcpkg
+        with:
+          # This one is not needed, as it is the default value anyway.
+          # vcpkgDirectory: '${{ github.workspace }}/vcpkg'
+          vcpkgJsonGlob: '${{ env.src_dir }}/vcpkg.json'
+
+      - name: List $RUNNER_WORKSPACE before build
+        run: find $RUNNER_WORKSPACE
+        shell: bash
+
+      - name: Prints output of run-vcpkg's action.
+        run: echo "root='${{ steps.runvcpkg.outputs.RUNVCPKG_VCPKG_ROOT_OUT }}', triplet='${{ steps.runvcpkg.outputs.RUNVCPKG_VCPKG_DEFAULT_TRIPLET_OUT }}' "
+
+      - name: Run CMake+vcpkg (Release configuration)
+        uses: lukka/run-cmake@v10
+        id: runcmake
+        with:
+          cmakeListsTxtPath: '${{ env.src_dir }}/CMakeLists.txt'
+
+      - name: Build
+        run: |
+          mkdir -p ${{ env.work_dir }}
+          cd ${{ env.work_dir }}
+          cmake -D CMAKE_TOOLCHAIN_FILE=${{ env.CMAKE_TOOLCHAIN_FILE }} -D VCPKG_TARGET_TRIPLET=${{ env.VCPKG_TARGET_TRIPLET }} -D CMAKE_INSTALL_PREFIX=${{ env.build_dist_dir }} -S ${{ env.src_dir }} -B ${{ env.work_dir }}
+          cmake --build ${{ env.work_dir }} --parallel ${{ env.BUILD_THREADS }} --config ${{ env.BUILD_TYPE }} --target install
+        env:
+          VCPKG_DEFAULT_TRIPLET: ${{ matrix.triplet }}
+          CMAKE_TOOLCHAIN_FILE: ${{ steps.runvcpkg.outputs.RUNVCPKG_VCPKG_ROOT_OUT }}/scripts/buildsystems/vcpkg.cmake
+          VCPKG_TARGET_TRIPLET: ${{ steps.runvcpkg.outputs.RUNVCPKG_VCPKG_DEFAULT_TRIPLET_OUT }}
+
+      - name: List $RUNNER_WORKSPACE after build
+        run: find $RUNNER_WORKSPACE
+        shell: bash
+
+      - name: Archive test result
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results
+          path: ${{ env.build_dist_dir }}
