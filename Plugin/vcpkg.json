@@ -1,0 +1,13 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/2023-11-16/docs/vcpkg.schema.json",
+    "name": "openvdbi",
+    "version-string": "0.2.0",
+    "builtin-baseline": "638b1588be3a265a9c7ad5b212cef72a1cad336a",
+    "dependencies": [
+        {
+            "name": "openvdb",
+            "default-features": true,
+            "platform": "windows & x64"
+        }
+    ]
+}

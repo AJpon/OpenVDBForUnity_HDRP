@@ -34,5 +34,29 @@ Finally, select your OpenVDB file (file extension is **.vdb**) in the project wi
 
 ## Build
 
-Under Construction [Wiki page](https://github.com/karasusan/OpenVDBForUnity/wiki/How-to-build-the-native-plugin).
+##### Windows
 
+Note that the following commands have only been tested for 64bit systems/libraries.
+It is recommended to set the `VCPKG_DEFAULT_TRIPLET` environment variable to
+`x64-windows` to use 64-bit libraries by default. You will also require
+[Visual Studio](https://visualstudio.microsoft.com/downloads/) (for the MSVC C++
+runtime and compiler toolchains), [CMake](https://cmake.org/download/) and optionally
+[vcpkg](https://github.com/microsoft/vcpkg) for the installation of dependencies.
+
+```bash
+git clone git@github.com:kuyuri-iroha/OpenVDBForUnity_HDRP.git
+cd OpenVDBForUnity_HDRP\Plugin
+mkdir build
+cd build
+cmake -D CMAKE_TOOLCHAIN_FILE=<PATH_TO_VCPKG>\scripts\buildsystems\vcpkg.cmake -D VCPKG_TARGET_TRIPLET=x64-windows -A x64 -S .. -B .
+cmake --build . --parallel 4 --config Release --target install
+```
+or
+```bash
+git clone git@github.com:kuyuri-iroha/OpenVDBForUnity_HDRP.git
+cd OpenVDBForUnity_HDRP\Plugin
+mkdir build
+cd build
+cmake -D VCPKG_TARGET_TRIPLET=x64-windows -A x64 -S .. -B .
+cmake --build . --parallel 4 --config Release --target install
+```

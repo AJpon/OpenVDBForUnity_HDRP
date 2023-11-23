@@ -12,6 +12,12 @@ x86_64.meta
 x86/
 x86.meta
 
+# Visual Studio Code generated files
+.vscode
+
+# vcpkg generated files
+vcpkg_installed
+
 # Visual Studio cache directory
 .vs/
 .idea/
@@ -43,6 +49,6 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-# Test resource
+# OpenVDB resource
 *.vdb
 *.vdb.meta
