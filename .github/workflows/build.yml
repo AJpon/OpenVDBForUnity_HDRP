@@ -76,6 +76,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: test-results
-          path: |
-            ${{ env.build_dist_dir }}
-            ${{ env.work_dir }}/*.log
+          path: ${{ env.build_dist_dir }}
